@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Task.css";
-import { FiEdit } from "react-icons/fi";
 import { MdDelete } from "react-icons/md";
 import { IoMdDoneAll } from "react-icons/io";
 
@@ -67,7 +66,6 @@ function Task() {
                   title="Complete"
                   onClick={() => onComplete(arr.id)}
                 />
-                <FiEdit className="list-item-icons" id="edit" title="Edit" />
                 <MdDelete
                   className="list-item-icons"
                   id="delete"
